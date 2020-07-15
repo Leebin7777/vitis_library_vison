@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/test.h
+vector
+-
+fstream
+-
+
+/home/l/localDir/test_file/main.cpp
+iostream
+-
+test.h
+/home/l/localDir/test_file/test.h
+
